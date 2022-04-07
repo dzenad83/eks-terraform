@@ -12,23 +12,25 @@ Infrastructure as Code (IaC) is the process of initialization and management of 
 # How to run it
 
 - To initializa terraform run > **terraform init**
-- Create workspaces with > terraform workspace new {env name}
+- Create workspaces with 
+    > terraform workspace new {env name}
     - **dev**
     - **stg**
     - **prod**
-- To start working select the workspace > terraform workspace select **dev**
+- To start working select the workspace 
+    > terraform workspace select **dev**
 - To run terraform plan on the required environment use **make** command followed as shown:
-    - > make plan-dev
-    - > make plan-stg
-    - > make plan-{env}
+     > make plan-dev
+     > make plan-stg
+     > make plan-{env}
 - To run terraform apply:
-    - > make apply-dev
-    - > make apply-stg
-    - > make apply-{env}
+     > make apply-dev
+     > make apply-stg
+     > make apply-{env}
 - To run terraform destroy:
-    - > make destroy-dev
-    - > make destroy-stg
-    - > make destroy-{env}
+     > make destroy-dev
+     > make destroy-stg
+     > make destroy-{env}
 
 # Progress
 Still in progress (Apr 7th 22)
