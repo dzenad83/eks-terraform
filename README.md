@@ -2,7 +2,7 @@
 
 ## Description of IaC Process ##
 
-Infrastructure as Code (IaC) is the management of infrastructure (networks, virtual machines, load balancers, and connection topology) 
+Infrastructure as Code (IaC) is the process of initialization and management of infrastructure (networks, virtual machines, load balancers, and connection topology) by code. 
 
 # Requirements
 1. Create pem key manually in EC2 console. Nameing: key-ec2-{projectname}.pem
